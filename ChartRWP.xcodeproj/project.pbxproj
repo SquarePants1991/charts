@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ECC728721C78C65006C9CC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC728621C78C65006C9CC5 /* AppDelegate.m */; };
+		8ECC728A21C78C65006C9CC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC728921C78C65006C9CC5 /* ViewController.m */; };
+		8ECC728D21C78C65006C9CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECC728B21C78C65006C9CC5 /* Main.storyboard */; };
+		8ECC728F21C78C68006C9CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECC728E21C78C68006C9CC5 /* Assets.xcassets */; };
+		8ECC729221C78C68006C9CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECC729021C78C68006C9CC5 /* LaunchScreen.storyboard */; };
+		8ECC729521C78C68006C9CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC729421C78C68006C9CC5 /* main.m */; };
+		8ECC729F21C78C68006C9CC5 /* ChartRWPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC729E21C78C68006C9CC5 /* ChartRWPTests.m */; };
+		8ECC72AC21C78C7F006C9CC5 /* RWPPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC72AB21C78C7F006C9CC5 /* RWPPieChart.m */; };
+		8ECC72AF21C78C9A006C9CC5 /* RWPChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC72AE21C78C9A006C9CC5 /* RWPChartData.m */; };
+		8ECC72B221C7A377006C9CC5 /* RWPBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC72B121C7A377006C9CC5 /* RWPBarChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ECC729B21C78C68006C9CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECC727A21C78C65006C9CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECC728121C78C65006C9CC5;
+			remoteInfo = ChartRWP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ECC728221C78C65006C9CC5 /* ChartRWP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartRWP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECC728521C78C65006C9CC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ECC728621C78C65006C9CC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ECC728821C78C65006C9CC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ECC728921C78C65006C9CC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ECC728C21C78C65006C9CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ECC728E21C78C68006C9CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ECC729121C78C68006C9CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ECC729321C78C68006C9CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECC729421C78C68006C9CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ECC729A21C78C68006C9CC5 /* ChartRWPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartRWPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECC729E21C78C68006C9CC5 /* ChartRWPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartRWPTests.m; sourceTree = "<group>"; };
+		8ECC72A021C78C68006C9CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECC72AA21C78C7F006C9CC5 /* RWPPieChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPPieChart.h; sourceTree = "<group>"; };
+		8ECC72AB21C78C7F006C9CC5 /* RWPPieChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPPieChart.m; sourceTree = "<group>"; };
+		8ECC72AD21C78C9A006C9CC5 /* RWPChartData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPChartData.h; sourceTree = "<group>"; };
+		8ECC72AE21C78C9A006C9CC5 /* RWPChartData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPChartData.m; sourceTree = "<group>"; };
+		8ECC72B021C7A377006C9CC5 /* RWPBarChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPBarChart.h; sourceTree = "<group>"; };
+		8ECC72B121C7A377006C9CC5 /* RWPBarChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPBarChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECC727F21C78C65006C9CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECC729721C78C68006C9CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECC727921C78C65006C9CC5 = {
+			isa = PBXGroup;
+			children = (
+				8ECC728421C78C65006C9CC5 /* ChartRWP */,
+				8ECC729D21C78C68006C9CC5 /* ChartRWPTests */,
+				8ECC728321C78C65006C9CC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECC728321C78C65006C9CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC728221C78C65006C9CC5 /* ChartRWP.app */,
+				8ECC729A21C78C68006C9CC5 /* ChartRWPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECC728421C78C65006C9CC5 /* ChartRWP */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC72A921C78C6D006C9CC5 /* Charts */,
+				8ECC728521C78C65006C9CC5 /* AppDelegate.h */,
+				8ECC728621C78C65006C9CC5 /* AppDelegate.m */,
+				8ECC728821C78C65006C9CC5 /* ViewController.h */,
+				8ECC728921C78C65006C9CC5 /* ViewController.m */,
+				8ECC728B21C78C65006C9CC5 /* Main.storyboard */,
+				8ECC728E21C78C68006C9CC5 /* Assets.xcassets */,
+				8ECC729021C78C68006C9CC5 /* LaunchScreen.storyboard */,
+				8ECC729321C78C68006C9CC5 /* Info.plist */,
+				8ECC729421C78C68006C9CC5 /* main.m */,
+			);
+			path = ChartRWP;
+			sourceTree = "<group>";
+		};
+		8ECC729D21C78C68006C9CC5 /* ChartRWPTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC729E21C78C68006C9CC5 /* ChartRWPTests.m */,
+				8ECC72A021C78C68006C9CC5 /* Info.plist */,
+			);
+			path = ChartRWPTests;
+			sourceTree = "<group>";
+		};
+		8ECC72A921C78C6D006C9CC5 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC72AA21C78C7F006C9CC5 /* RWPPieChart.h */,
+				8ECC72AB21C78C7F006C9CC5 /* RWPPieChart.m */,
+				8ECC72AD21C78C9A006C9CC5 /* RWPChartData.h */,
+				8ECC72AE21C78C9A006C9CC5 /* RWPChartData.m */,
+				8ECC72B021C7A377006C9CC5 /* RWPBarChart.h */,
+				8ECC72B121C7A377006C9CC5 /* RWPBarChart.m */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECC728121C78C65006C9CC5 /* ChartRWP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECC72A321C78C68006C9CC5 /* Build configuration list for PBXNativeTarget "ChartRWP" */;
+			buildPhases = (
+				8ECC727E21C78C65006C9CC5 /* Sources */,
+				8ECC727F21C78C65006C9CC5 /* Frameworks */,
+				8ECC728021C78C65006C9CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartRWP;
+			productName = ChartRWP;
+			productReference = 8ECC728221C78C65006C9CC5 /* ChartRWP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ECC729921C78C68006C9CC5 /* ChartRWPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECC72A621C78C68006C9CC5 /* Build configuration list for PBXNativeTarget "ChartRWPTests" */;
+			buildPhases = (
+				8ECC729621C78C68006C9CC5 /* Sources */,
+				8ECC729721C78C68006C9CC5 /* Frameworks */,
+				8ECC729821C78C68006C9CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECC729C21C78C68006C9CC5 /* PBXTargetDependency */,
+			);
+			name = ChartRWPTests;
+			productName = ChartRWPTests;
+			productReference = 8ECC729A21C78C68006C9CC5 /* ChartRWPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECC727A21C78C65006C9CC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = handytool;
+				TargetAttributes = {
+					8ECC728121C78C65006C9CC5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8ECC729921C78C68006C9CC5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8ECC728121C78C65006C9CC5;
+					};
+				};
+			};
+			buildConfigurationList = 8ECC727D21C78C65006C9CC5 /* Build configuration list for PBXProject "ChartRWP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ECC727921C78C65006C9CC5;
+			productRefGroup = 8ECC728321C78C65006C9CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECC728121C78C65006C9CC5 /* ChartRWP */,
+				8ECC729921C78C68006C9CC5 /* ChartRWPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECC728021C78C65006C9CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECC729221C78C68006C9CC5 /* LaunchScreen.storyboard in Resources */,
+				8ECC728F21C78C68006C9CC5 /* Assets.xcassets in Resources */,
+				8ECC728D21C78C65006C9CC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECC729821C78C68006C9CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECC727E21C78C65006C9CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECC728A21C78C65006C9CC5 /* ViewController.m in Sources */,
+				8ECC72AF21C78C9A006C9CC5 /* RWPChartData.m in Sources */,
+				8ECC72B221C7A377006C9CC5 /* RWPBarChart.m in Sources */,
+				8ECC72AC21C78C7F006C9CC5 /* RWPPieChart.m in Sources */,
+				8ECC729521C78C68006C9CC5 /* main.m in Sources */,
+				8ECC728721C78C65006C9CC5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECC729621C78C68006C9CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECC729F21C78C68006C9CC5 /* ChartRWPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ECC729C21C78C68006C9CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECC728121C78C65006C9CC5 /* ChartRWP */;
+			targetProxy = 8ECC729B21C78C68006C9CC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ECC728B21C78C65006C9CC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECC728C21C78C65006C9CC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ECC729021C78C68006C9CC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECC729121C78C68006C9CC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ECC72A121C78C68006C9CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ECC72A221C78C68006C9CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECC72A421C78C68006C9CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = ChartRWP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.handytool.ChartRWP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ECC72A521C78C68006C9CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = ChartRWP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.handytool.ChartRWP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8ECC72A721C78C68006C9CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = ChartRWPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.handytool.ChartRWPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartRWP.app/ChartRWP";
+			};
+			name = Debug;
+		};
+		8ECC72A821C78C68006C9CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = ChartRWPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.handytool.ChartRWPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartRWP.app/ChartRWP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECC727D21C78C65006C9CC5 /* Build configuration list for PBXProject "ChartRWP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECC72A121C78C68006C9CC5 /* Debug */,
+				8ECC72A221C78C68006C9CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECC72A321C78C68006C9CC5 /* Build configuration list for PBXNativeTarget "ChartRWP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECC72A421C78C68006C9CC5 /* Debug */,
+				8ECC72A521C78C68006C9CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECC72A621C78C68006C9CC5 /* Build configuration list for PBXNativeTarget "ChartRWPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECC72A721C78C68006C9CC5 /* Debug */,
+				8ECC72A821C78C68006C9CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECC727A21C78C65006C9CC5 /* Project object */;
+}
